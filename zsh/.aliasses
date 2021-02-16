@@ -1,0 +1,26 @@
+#!/bin/zsh
+
+source ~/.variables
+
+# GENERAL
+alias aliasses='nano ~/.aliasses'
+
+# NOTEBOOK
+alias nb='jupyter notebook'
+
+# GIT
+alias hardp='git fetch --all; git reset --hard origin/master'
+
+# SSH
+alias sql='mysql -u "$MYSQLUSER" -h "$BEAST" -p"$MYSQLPW"'
+alias beast='ssh chiel@"$BEAST"'
+alias dev2='ssh chiel@"$DEV2"'
+alias dev1='ssh chiel@"$DEV1"'
+
+dev2port() {
+        ssh -N -L $1:localhost:$1 chiel@$DEV2
+}
+
+dev1port() {
+        ssh -N -L $1:localhost:$1 chiel@$DEV1
+}

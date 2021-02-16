@@ -1,0 +1,17 @@
+code --install-extension  VisualStudioExptTeam.vscodeintellicode
+code --install-extension  ms-toolsai.jupyter
+code --install-extension  GitHub.vscode-pull-request-github
+code --install-extension  cschleiden.vscode-github-actions
+code --install-extension  christian-kohler.path-intellisense
+code --install-extension  bibhasdn.django-html
+code --install-extension  RickyWhite.python-template-snippets
+code --install-extension  ms-vscode-remote.remote-ssh
+code --install-extension  ms-vscode-remote.vscode-remote-extensionpack
+code --install-extension  CoenraadS.bracket-pair-colorizer
+code --install-extension  eamodio.gitlens
+code --install-extension  formulahendry.code-runner
+code --install-extension  ms-python.vscode-pylance
+code --install-extension  ecmel.vscode-html-css
+code --install-extension  ms-python.python
+code --install-extension  ms-vscode-remote.remote-ssh-edit
+code --install-extension  njpwerner.autodocstring
