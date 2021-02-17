@@ -12,6 +12,6 @@ brew bundle
 chsh -s /bin/zsh
 
 zsh iterm2/install.sh
-zsh zsh/install.sh
 zsh ssh/install.sh
+zsh zsh/install.sh
 zsh git/install.sh
