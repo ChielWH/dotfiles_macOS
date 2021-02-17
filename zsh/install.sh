@@ -5,3 +5,5 @@ scp ./zsh/.variables ~/.variables
 scp ./zsh/.aliasses ~/.aliasses 
 scp ./zsh/.zshrc ~/.zshrc 
 source ~/.zshrc 
+
+conda init zsh
