@@ -11,6 +11,10 @@ alias nb='jupyter notebook'
 # GIT
 alias hardp='git fetch --all; git reset --hard origin/master'
 
+# NAVIGATION
+alias work='cd $WORKDIR'
+alias ds='cd $WORKDIR/datascience'
+
 # SSH
 alias sql='mysql -u "$MYSQLUSER" -h "$BEAST" -p"$MYSQLPW"'
 alias beast='ssh chiel@"$BEAST"'

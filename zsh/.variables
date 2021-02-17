@@ -1,11 +1,11 @@
 #!/bin/zsh
 
 # Work
-export WORKDIR=~/gdrive/Work/
+export WORKDIR=~/Documents/work/
 
-export DEV1=192.168.4.236
-export DEV2=192.168.4.240
-export BEAST=192.168.4.162  # 2YVE5xaEAz2P
+export DEV1=***********
+export DEV2=***********
+export BEAST=***********
 
 export MYSQLUSER=chiel
-export MYSQLPW=Lpw2bBkPiwT6l8HM
+export MYSQLPW=*************
