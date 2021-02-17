@@ -10,6 +10,7 @@ brew "rabbitmq"     # As message queue for Celery
 brew "mariadb"      # DBMS
 brew "tldr"         # Nice helper overview
 brew "htop"         # Process manager
+brew "tree"         # For nice overview of a repo
 
 # Programming languages
 brew "python"       # Update to latest Python
